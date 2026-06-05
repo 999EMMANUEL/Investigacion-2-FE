@@ -9,7 +9,7 @@ const HomePage = () => {
 
   return (
     <>
-        { user ? <Welcome userName={user} /> : <Login/>}       
+        { user ? <Welcome userName={user.email} /> : <Login/>}       
     </>
   );
 }
